@@ -1,4 +1,4 @@
-import Game from './models/Game.model';
+import Game from './models/Game.model.js';
 
 export const handleSocketConnection = (io, socket) => {
     socket.on('join-game', async ({ gameId, playerId }) => {
